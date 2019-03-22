@@ -47,6 +47,8 @@ def import_source_data_csv(file):
 	df.to_csv('logs/processed.csv', encoding='utf-8', index=False)
 	return df
 
+
+# Retrieves neighborhood name from coordinates via Flickr API
 def get_neighborhood(place_id, coordinates):
 	lon = str(coordinates[0])
 	lat = str(coordinates[1])
@@ -74,6 +76,8 @@ def get_neighborhood(place_id, coordinates):
 		logger.info('Could not get neighborhood for id %s at coordinates [%s,%s].', place_id, lat, lon)
 		return ''
 
+
+# Manual transformation of obsolete neighborhood names to modern usage
 def neighborhood_transform(neighborhood):
 	neighborhood_dict = {
 		'Georgetown': 'Bergen Beach',
@@ -104,16 +108,20 @@ def neighborhood_transform(neighborhood):
 	else:
 		return neighborhood
 
-# generate main json document with information needed for posting
+
+# Generates main json document with post-ready data
 def generate_content_json(df):
 	content = (df.groupby(['family_id', 'borough', 'neighborhood_hist', 'neighborhood_curr', 'year', 'place'], as_index=False)
 			.apply(lambda x: x[['id', 'original_image_url', 'image_name']].to_dict('r'))
 			.reset_index()
-			.rename(columns={0:'images'}))
+			.rename(columns={0:'images'})
+			.to_json(force_ascii=False, orient='records'))
 
 	with open('content.json', 'w', encoding='utf-8') as file:
-		content.to_json(file, force_ascii=False, orient='records')
+		json.dump(json.loads(content), file, indent=4, sort_keys=True)
 
+
+# Save image to local directory 
 def download_image_local(image_name, image_url):
 	path = 'images/'
 
@@ -127,6 +135,7 @@ def download_image_local(image_name, image_url):
 		logger.info('Could not save image from %s', image_url)
 
 
+# API stream from source to dedicated S3 bucket
 def download_image_s3(bucket, image_name, image_url):
 	key = 'oldnyc-bot/images/' + image_name
 
@@ -147,8 +156,7 @@ def main():
 	bucket = s3.Bucket('odoren-aws')
 	for index, row in df.iterrows():
 		download_image_s3(bucket, row['image_name'], row['original_image_url'])
-		#download_image_local(row['image_name'], row['original_image_url'])
-		
+		#download_image_local(row['image_name'], row['original_image_url'])		
 
 	logger.info("Generating content json file...")
 	generate_content_json(df)
