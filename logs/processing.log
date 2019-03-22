@@ -1,0 +1,1356 @@
+2019-03-21 21:58:34,302 root         INFO     Importing source data...
+2019-03-21 21:58:34,398 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:34,635 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.977953&lat=40.685094&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 272
+2019-03-21 21:58:34,640 root         INFO     Retrived neighborhood for id 1557788 [40.685094,-73.977953]: Fort Greene
+2019-03-21 21:58:34,645 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:34,842 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.907616&lat=40.66114&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 265
+2019-03-21 21:58:34,848 root         INFO     Retrived neighborhood for id 1557810 [40.66114,-73.907616]: Brownsville
+2019-03-21 21:58:34,853 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:35,042 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.998871&lat=40.68087&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 272
+2019-03-21 21:58:35,047 root         INFO     Retrived neighborhood for id 702214f-a [40.68087,-73.998871]: Columbia St
+2019-03-21 21:58:35,053 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:35,272 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-74.011103&lat=40.654695&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 280
+2019-03-21 21:58:35,277 root         INFO     Retrived neighborhood for id 702224f-a [40.654695,-74.011103]: Greenwood Heights
+2019-03-21 21:58:35,282 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:35,494 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-74.011103&lat=40.654695&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 280
+2019-03-21 21:58:35,499 root         INFO     Retrived neighborhood for id 702225f-a [40.654695,-74.011103]: Greenwood Heights
+2019-03-21 21:58:35,504 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:35,716 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-74.011103&lat=40.654695&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 280
+2019-03-21 21:58:35,721 root         INFO     Retrived neighborhood for id 702225f-b [40.654695,-74.011103]: Greenwood Heights
+2019-03-21 21:58:35,725 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:35,927 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.997283&lat=40.679502&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 278
+2019-03-21 21:58:35,932 root         INFO     Retrived neighborhood for id 702226f-a [40.679502,-73.997283]: Carroll Gardens
+2019-03-21 21:58:35,937 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:36,131 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.980428&lat=40.67226&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 267
+2019-03-21 21:58:36,137 root         INFO     Retrived neighborhood for id 702227f-a [40.67226,-73.980428]: Central Slope
+2019-03-21 21:58:36,142 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:36,358 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.971936&lat=40.60894&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 275
+2019-03-21 21:58:36,364 root         INFO     Retrived neighborhood for id 702228f-a [40.60894,-73.971936]: Ocean Parkway
+2019-03-21 21:58:36,370 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:36,571 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.960561&lat=40.712713&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 282
+2019-03-21 21:58:36,577 root         INFO     Retrived neighborhood for id 702230f-a [40.712713,-73.960561]: South Williamsburg
+2019-03-21 21:58:36,583 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:36,772 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.953858&lat=40.710262&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 281
+2019-03-21 21:58:36,778 root         INFO     Retrived neighborhood for id 702231f-a [40.710262,-73.953858]: East Williamsburg
+2019-03-21 21:58:36,783 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:36,994 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.953858&lat=40.710262&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 281
+2019-03-21 21:58:36,999 root         INFO     Retrived neighborhood for id 702232f-a [40.710262,-73.953858]: East Williamsburg
+2019-03-21 21:58:37,005 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:37,228 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.979846&lat=40.686576&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 272
+2019-03-21 21:58:37,232 root         INFO     Retrived neighborhood for id 702237f-a [40.686576,-73.979846]: Boerum Hill
+2019-03-21 21:58:37,235 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:37,451 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.979846&lat=40.686576&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 272
+2019-03-21 21:58:37,456 root         INFO     Retrived neighborhood for id 702237f-b [40.686576,-73.979846]: Boerum Hill
+2019-03-21 21:58:37,460 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:37,643 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.979846&lat=40.686576&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 272
+2019-03-21 21:58:37,649 root         INFO     Retrived neighborhood for id 702238f-a [40.686576,-73.979846]: Boerum Hill
+2019-03-21 21:58:37,653 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:37,855 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.979846&lat=40.686576&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 272
+2019-03-21 21:58:37,860 root         INFO     Retrived neighborhood for id 702238f-b [40.686576,-73.979846]: Boerum Hill
+2019-03-21 21:58:37,865 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:38,130 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.980254&lat=40.685964&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 271
+2019-03-21 21:58:38,136 root         INFO     Retrived neighborhood for id 702239f-a [40.685964,-73.980254]: Boerum Hill
+2019-03-21 21:58:38,142 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:38,340 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.980254&lat=40.685964&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 271
+2019-03-21 21:58:38,346 root         INFO     Retrived neighborhood for id 702240f-a [40.685964,-73.980254]: Boerum Hill
+2019-03-21 21:58:38,351 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:38,613 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.979846&lat=40.686576&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 272
+2019-03-21 21:58:38,619 root         INFO     Retrived neighborhood for id 702241f-a [40.686576,-73.979846]: Boerum Hill
+2019-03-21 21:58:38,624 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.flickr.com:443
+2019-03-21 21:58:38,839 urllib3.connectionpool DEBUG    https://api.flickr.com:443 "GET /services/rest/?method=flickr.places.findByLatLon&format=json&api_key=f5c33286ba52899be026f8d09e5e0ab4&lon=-73.979846&lat=40.686576&accuracy=16&nojsoncallback=1 HTTP/1.1" 200 272
+2019-03-21 21:58:38,844 root         INFO     Retrived neighborhood for id 702241f-b [40.686576,-73.979846]: Boerum Hill
+2019-03-21 21:58:38,859 root         INFO     Downloading images from source platform...
+2019-03-21 21:58:38,860 botocore.hooks DEBUG    Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2019-03-21 21:58:38,866 botocore.hooks DEBUG    Changing event name from before-call.apigateway to before-call.api-gateway
+2019-03-21 21:58:38,867 botocore.hooks DEBUG    Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2019-03-21 21:58:38,871 botocore.hooks DEBUG    Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2019-03-21 21:58:38,871 botocore.hooks DEBUG    Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2019-03-21 21:58:38,871 botocore.hooks DEBUG    Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2019-03-21 21:58:38,872 botocore.hooks DEBUG    Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2019-03-21 21:58:38,876 botocore.hooks DEBUG    Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2019-03-21 21:58:38,876 botocore.hooks DEBUG    Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2019-03-21 21:58:38,876 botocore.hooks DEBUG    Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2019-03-21 21:58:38,876 botocore.hooks DEBUG    Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2019-03-21 21:58:38,909 botocore.loaders DEBUG    Loading JSON file: /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/boto3/data/s3/2006-03-01/resources-1.json
+2019-03-21 21:58:38,946 botocore.credentials DEBUG    Looking for credentials via: env
+2019-03-21 21:58:38,946 botocore.credentials DEBUG    Looking for credentials via: assume-role
+2019-03-21 21:58:38,946 botocore.credentials DEBUG    Looking for credentials via: shared-credentials-file
+2019-03-21 21:58:38,947 botocore.credentials INFO     Found credentials in shared credentials file: ~/.aws/credentials
+2019-03-21 21:58:38,949 botocore.loaders DEBUG    Loading JSON file: /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/botocore/data/endpoints.json
+2019-03-21 21:58:38,956 botocore.hooks DEBUG    Event choose-service-name: calling handler <function handle_service_name_alias at 0x10d864b70>
+2019-03-21 21:58:38,973 botocore.loaders DEBUG    Loading JSON file: /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/botocore/data/s3/2006-03-01/service-2.json
+2019-03-21 21:58:38,985 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x10d81d488>
+2019-03-21 21:58:38,986 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x10228d8c8>
+2019-03-21 21:58:39,072 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x10d81d268>
+2019-03-21 21:58:39,073 botocore.args DEBUG    The s3 config key is not a dictionary type, ignoring its value of: None
+2019-03-21 21:58:39,160 botocore.endpoint DEBUG    Setting s3 timeout as (60, 60)
+2019-03-21 21:58:39,164 botocore.loaders DEBUG    Loading JSON file: /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/botocore/data/_retry.json
+2019-03-21 21:58:39,165 botocore.client DEBUG    Registering retry handlers for service: s3
+2019-03-21 21:58:39,167 botocore.client DEBUG    Defaulting to S3 virtual host style addressing with path style addressing fallback.
+2019-03-21 21:58:39,168 boto3.resources.factory DEBUG    Loading s3:s3
+2019-03-21 21:58:39,171 boto3.resources.factory DEBUG    Loading s3:Bucket
+2019-03-21 21:58:39,172 boto3.resources.model DEBUG    Renaming Bucket attribute name
+2019-03-21 21:58:39,175 botocore.hooks DEBUG    Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x1174670d0>
+2019-03-21 21:58:39,202 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:39,254 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/1557788.jpg HTTP/1.1" 200 37229
+2019-03-21 21:58:39,257 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:39,259 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b606a0>}) about to wait for the following futures []
+2019-03-21 21:58:39,259 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b606a0>}) done waiting for dependent futures
+2019-03-21 21:58:39,261 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b606a0>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x117b57080>, 'osutil': <s3transfer.utils.OSUtils object at 0x117b57358>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b576d8>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b606a0>}
+2019-03-21 21:58:39,272 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/1557788.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b576d8> for transfer request: 0.
+2019-03-21 21:58:39,273 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:39,273 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/1557788.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:39,273 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:39,273 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/1557788.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:39,274 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/1557788.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b57b38>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/1557788.jpg', 'extra_args': {}}
+2019-03-21 21:58:39,275 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:39,275 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:39,275 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:39,275 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:39,276 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:39,276 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:39,276 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:39,277 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:39,277 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:39,277 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:39,277 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:39,277 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/1557788.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'dtDVTEBV9hgByA4/Nl9M9Q==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b57b38>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/1557788.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:39,277 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:39,278 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:39,278 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:39,278 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:39,278 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/1557788.jpg
+2019-03-21 21:58:39,279 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/1557788.jpg
+2019-03-21 21:58:39,279 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:39,279 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/1557788.jpg
+
+content-md5:dtDVTEBV9hgByA4/Nl9M9Q==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015839Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:39,279 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015839Z
+20190322/us-east-2/s3/aws4_request
+931360357d0dbfec0d06622c6fd801d63755a645b428582fca86763c8252594d
+2019-03-21 21:58:39,279 botocore.auth DEBUG    Signature:
+910b18bdd26b3d1d06145431ba537c9576e59b659deaad6bf6c5f13c08d33eaf
+2019-03-21 21:58:39,280 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:39,280 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/1557788.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'dtDVTEBV9hgByA4/Nl9M9Q==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015839Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=910b18bdd26b3d1d06145431ba537c9576e59b659deaad6bf6c5f13c08d33eaf', 'Content-Length': '37229'}>
+2019-03-21 21:58:39,281 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:39,281 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): odoren-aws.s3.us-east-2.amazonaws.com:443
+2019-03-21 21:58:39,424 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:39,469 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:39,670 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/1557788.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:39,671 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'l1egt3USc5pPcdYOUQQDUAU6Ci8HPTfPiK09CKt4wFoaZH7UXhi4l/AbgkpNsHGt+hyo5PGheXQ=', 'x-amz-request-id': '68915FC9ED00DFA8', 'Date': 'Fri, 22 Mar 2019 01:58:40 GMT', 'ETag': '"76d0d54c4055f61801c80e3f365f4cf5"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:39,671 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:39,673 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:39,673 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:39,674 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:39,674 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:39,675 root         INFO     Saved image to odoren-aws/twitterbot/images/1557788.jpg
+2019-03-21 21:58:39,681 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:39,728 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/1557810.jpg HTTP/1.1" 200 42804
+2019-03-21 21:58:39,730 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:39,731 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b60630>}) about to wait for the following futures []
+2019-03-21 21:58:39,731 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b60630>}) done waiting for dependent futures
+2019-03-21 21:58:39,732 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b60630>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x117b572b0>, 'osutil': <s3transfer.utils.OSUtils object at 0x117b57550>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b57f98>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b60630>}
+2019-03-21 21:58:39,741 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/1557810.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b57f98> for transfer request: 0.
+2019-03-21 21:58:39,742 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:39,742 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/1557810.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:39,743 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/1557810.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:39,743 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:39,743 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/1557810.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b57198>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/1557810.jpg', 'extra_args': {}}
+2019-03-21 21:58:39,744 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:39,744 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:39,745 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:39,745 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:39,745 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:39,745 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:39,746 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:39,746 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:39,746 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:39,746 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:39,747 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:39,747 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/1557810.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': '1sT+vNr613v1k5avtWrvig==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b57198>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/1557810.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:39,747 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:39,748 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:39,748 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:39,748 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:39,748 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/1557810.jpg
+2019-03-21 21:58:39,749 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/1557810.jpg
+2019-03-21 21:58:39,749 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:39,749 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/1557810.jpg
+
+content-md5:1sT+vNr613v1k5avtWrvig==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015839Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:39,749 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015839Z
+20190322/us-east-2/s3/aws4_request
+45dcded0aa2c42345bc22e60d50acf056ac5b5bfafb5047379268a852e7acdba
+2019-03-21 21:58:39,749 botocore.auth DEBUG    Signature:
+43ccc6cd02e44beb4f019cb99a5d9c13367ea032f57394fa0b62a05d620c5724
+2019-03-21 21:58:39,750 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:39,750 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/1557810.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'1sT+vNr613v1k5avtWrvig==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015839Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=43ccc6cd02e44beb4f019cb99a5d9c13367ea032f57394fa0b62a05d620c5724', 'Content-Length': '42804'}>
+2019-03-21 21:58:39,751 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:39,751 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:39,796 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:39,911 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/1557810.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:39,912 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'hbXmsrZRSJzVfvldPGQeb00enIZyg9isIxAxDKC0ZPjMde6s0GN1JWIUIebaK2mF9MH8EPHyHNk=', 'x-amz-request-id': 'ACB71631D18B48F6', 'Date': 'Fri, 22 Mar 2019 01:58:40 GMT', 'ETag': '"d6c4febcdafad77bf59396afb56aef8a"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:39,912 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:39,913 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:39,913 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:39,913 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:39,914 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:39,914 root         INFO     Saved image to odoren-aws/twitterbot/images/1557810.jpg
+2019-03-21 21:58:39,918 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:39,970 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702214f-a.jpg HTTP/1.1" 200 27532
+2019-03-21 21:58:39,973 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:39,973 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b60438>}) about to wait for the following futures []
+2019-03-21 21:58:39,974 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b60438>}) done waiting for dependent futures
+2019-03-21 21:58:39,974 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b60438>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x116b63630>, 'osutil': <s3transfer.utils.OSUtils object at 0x116b63400>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b57a90>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b60438>}
+2019-03-21 21:58:39,977 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702214f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b57a90> for transfer request: 0.
+2019-03-21 21:58:39,977 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:39,978 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702214f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:39,978 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:39,978 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702214f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:39,979 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702214f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b57e48>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702214f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:39,979 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:39,979 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:39,979 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:39,980 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:39,980 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:39,980 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:39,980 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:39,981 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:39,981 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:39,981 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:39,981 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:39,981 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702214f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'ctGg6sfeCfjEBdKFwcjAEg==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b57e48>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702214f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:39,982 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:39,982 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:39,982 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:39,983 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:39,983 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702214f-a.jpg
+2019-03-21 21:58:39,983 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702214f-a.jpg
+2019-03-21 21:58:39,984 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:39,984 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702214f-a.jpg
+
+content-md5:ctGg6sfeCfjEBdKFwcjAEg==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015839Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:39,984 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015839Z
+20190322/us-east-2/s3/aws4_request
+26ab12d169581f954a74f6ff24b15da47e69784dd96ec58b6e7176aed9afc8cc
+2019-03-21 21:58:39,984 botocore.auth DEBUG    Signature:
+41da1cbd78dc62943095ed5e627df9ec4f78f3b742a66cf35fec56a7594dffe3
+2019-03-21 21:58:39,985 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:39,985 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702214f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'ctGg6sfeCfjEBdKFwcjAEg==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015839Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=41da1cbd78dc62943095ed5e627df9ec4f78f3b742a66cf35fec56a7594dffe3', 'Content-Length': '27532'}>
+2019-03-21 21:58:39,986 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:39,986 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:40,027 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:40,136 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702214f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:40,136 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'tD+2GB0ahkf3ZWLyk5Om0LL9B0nEoW7BNm+MSe+5BlPcAy+qobV5OHIZRUM3QaDIcDsONmuQmY8=', 'x-amz-request-id': 'CF6F83FAB71B01AE', 'Date': 'Fri, 22 Mar 2019 01:58:41 GMT', 'ETag': '"72d1a0eac7de09f8c405d285c1c8c012"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:40,137 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:40,137 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:40,138 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:40,138 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:40,139 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:40,139 root         INFO     Saved image to odoren-aws/twitterbot/images/702214f-a.jpg
+2019-03-21 21:58:40,145 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:40,186 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702224f-a.jpg HTTP/1.1" 200 55236
+2019-03-21 21:58:40,188 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:40,189 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b60518>}) about to wait for the following futures []
+2019-03-21 21:58:40,190 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b60518>}) done waiting for dependent futures
+2019-03-21 21:58:40,190 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b60518>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x117b57198>, 'osutil': <s3transfer.utils.OSUtils object at 0x117b57320>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b57a20>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b60518>}
+2019-03-21 21:58:40,214 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702224f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b57a20> for transfer request: 0.
+2019-03-21 21:58:40,214 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:40,215 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702224f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:40,215 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702224f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:40,215 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702224f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b57470>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702224f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:40,216 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:40,216 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:40,216 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:40,216 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:40,216 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:40,217 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:40,217 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:40,217 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:40,218 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:40,218 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:40,218 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:40,218 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:40,219 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702224f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'lDGcsbEl/vpIVFjNfBPQFw==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b57470>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702224f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:40,219 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:40,219 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:40,220 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:40,220 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:40,220 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702224f-a.jpg
+2019-03-21 21:58:40,220 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702224f-a.jpg
+2019-03-21 21:58:40,221 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:40,221 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702224f-a.jpg
+
+content-md5:lDGcsbEl/vpIVFjNfBPQFw==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015840Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:40,221 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015840Z
+20190322/us-east-2/s3/aws4_request
+d4a6b1d94d2f3ed58c3c6c7f31e2b4c840c9226b605174cc0d7aaf000bcd6366
+2019-03-21 21:58:40,222 botocore.auth DEBUG    Signature:
+205d7671505e523bc9eb7346f323bb6cf3ed409925c33ff0491c56cc8a9b023a
+2019-03-21 21:58:40,222 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:40,222 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702224f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'lDGcsbEl/vpIVFjNfBPQFw==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015840Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=205d7671505e523bc9eb7346f323bb6cf3ed409925c33ff0491c56cc8a9b023a', 'Content-Length': '55236'}>
+2019-03-21 21:58:40,223 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:40,224 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:40,272 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:40,503 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702224f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:40,504 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'Kqc+/7ASl8VC+Ah+CR7LFBfS1w9mc0RZQ3IGPZpZUooF3vYEVnB2oIs6EUDmIqVKUsn2GqylOL4=', 'x-amz-request-id': '3B559CF592C773E6', 'Date': 'Fri, 22 Mar 2019 01:58:41 GMT', 'ETag': '"94319cb1b125fefa485458cd7c13d017"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:40,504 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:40,505 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:40,505 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:40,506 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:40,506 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:40,507 root         INFO     Saved image to odoren-aws/twitterbot/images/702224f-a.jpg
+2019-03-21 21:58:40,512 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:40,567 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702225f-a.jpg HTTP/1.1" 200 25646
+2019-03-21 21:58:40,569 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:40,570 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b7c9b0>}) about to wait for the following futures []
+2019-03-21 21:58:40,570 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b7c9b0>}) done waiting for dependent futures
+2019-03-21 21:58:40,570 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b7c9b0>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x116b8b588>, 'osutil': <s3transfer.utils.OSUtils object at 0x116b63d30>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b57f98>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b7c9b0>}
+2019-03-21 21:58:40,575 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702225f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b57f98> for transfer request: 0.
+2019-03-21 21:58:40,575 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:40,576 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702225f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:40,576 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702225f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:40,576 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702225f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b57e80>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702225f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:40,576 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:40,577 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:40,577 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:40,577 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:40,577 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:40,577 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:40,578 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:40,578 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:40,578 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:40,578 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:40,579 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:40,579 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:40,579 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702225f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'UkLZOqNt9nP5niKTW5R+Xg==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b57e80>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702225f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:40,579 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:40,579 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:40,580 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:40,580 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:40,580 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702225f-a.jpg
+2019-03-21 21:58:40,580 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702225f-a.jpg
+2019-03-21 21:58:40,581 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:40,581 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702225f-a.jpg
+
+content-md5:UkLZOqNt9nP5niKTW5R+Xg==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015840Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:40,581 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015840Z
+20190322/us-east-2/s3/aws4_request
+fc2a7bc1c4c5d5b3a61fb9e4ca61808c5f1a93eaf5e7ecdf85412b227efcc482
+2019-03-21 21:58:40,581 botocore.auth DEBUG    Signature:
+b4c877575b7201f3714d3680f5bedc7fc394bfdca3ce91057f8b03227ae6c012
+2019-03-21 21:58:40,581 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:40,581 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702225f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'UkLZOqNt9nP5niKTW5R+Xg==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015840Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=b4c877575b7201f3714d3680f5bedc7fc394bfdca3ce91057f8b03227ae6c012', 'Content-Length': '25646'}>
+2019-03-21 21:58:40,582 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:40,582 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:40,628 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:40,694 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702225f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:40,694 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'KUL4lacOczgQgEFOAKA+D5fAiQgCfMoz2Ynibg9bHN6RCwKv2YO6vi7gx+ofHKFUpyAMrW0fYZQ=', 'x-amz-request-id': '9D4A86F3D6B75376', 'Date': 'Fri, 22 Mar 2019 01:58:41 GMT', 'ETag': '"5242d93aa36df673f99e22935b947e5e"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:40,695 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:40,696 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:40,696 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:40,696 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:40,697 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:40,697 root         INFO     Saved image to odoren-aws/twitterbot/images/702225f-a.jpg
+2019-03-21 21:58:40,703 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:40,750 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702225f-b.jpg HTTP/1.1" 200 20583
+2019-03-21 21:58:40,752 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:40,752 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b7cf60>}) about to wait for the following futures []
+2019-03-21 21:58:40,752 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b7cf60>}) done waiting for dependent futures
+2019-03-21 21:58:40,753 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b7cf60>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x116b63d30>, 'osutil': <s3transfer.utils.OSUtils object at 0x117b604a8>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b60438>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b7cf60>}
+2019-03-21 21:58:40,755 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702225f-b.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b60438> for transfer request: 0.
+2019-03-21 21:58:40,756 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:40,756 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702225f-b.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:40,756 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:40,756 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702225f-b.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:40,756 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702225f-b.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b57ba8>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702225f-b.jpg', 'extra_args': {}}
+2019-03-21 21:58:40,757 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:40,757 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:40,757 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:40,757 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:40,757 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:40,757 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:40,758 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:40,758 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:40,758 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:40,758 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:40,758 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:40,758 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702225f-b.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'WEnY8iY/WENqtpux3z1aSA==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b57ba8>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702225f-b.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:40,758 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:40,758 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:40,759 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:40,759 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:40,759 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702225f-b.jpg
+2019-03-21 21:58:40,759 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702225f-b.jpg
+2019-03-21 21:58:40,759 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:40,759 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702225f-b.jpg
+
+content-md5:WEnY8iY/WENqtpux3z1aSA==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015840Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:40,759 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015840Z
+20190322/us-east-2/s3/aws4_request
+2c8692788ccea6aed54902085a41887833aa0f567bcd1f61913d095104d0327e
+2019-03-21 21:58:40,760 botocore.auth DEBUG    Signature:
+1fa11164793661a77d31567886ef4efd0b33e2128f38b52523cad979dee56bc2
+2019-03-21 21:58:40,760 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:40,760 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702225f-b.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'WEnY8iY/WENqtpux3z1aSA==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015840Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=1fa11164793661a77d31567886ef4efd0b33e2128f38b52523cad979dee56bc2', 'Content-Length': '20583'}>
+2019-03-21 21:58:40,761 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:40,761 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:40,806 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:40,885 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702225f-b.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:40,885 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'TqFYlWPuk9k9kDAiB4qEfUo4YcdElUPtRcVWzayDm3t3Nw6VFO7CN15XUBmC8OxHHL3Z3X3qBF0=', 'x-amz-request-id': '7520A6239EF3C000', 'Date': 'Fri, 22 Mar 2019 01:58:41 GMT', 'ETag': '"5849d8f2263f58436ab69bb1df3d5a48"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:40,886 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:40,886 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:40,887 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:40,887 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:40,887 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:40,888 root         INFO     Saved image to odoren-aws/twitterbot/images/702225f-b.jpg
+2019-03-21 21:58:40,893 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:40,932 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702226f-a.jpg HTTP/1.1" 200 36746
+2019-03-21 21:58:40,934 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:40,935 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98240>}) about to wait for the following futures []
+2019-03-21 21:58:40,935 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98240>}) done waiting for dependent futures
+2019-03-21 21:58:40,936 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98240>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x116b63630>, 'osutil': <s3transfer.utils.OSUtils object at 0x117b60048>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b60668>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98240>}
+2019-03-21 21:58:40,950 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702226f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b60668> for transfer request: 0.
+2019-03-21 21:58:40,950 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:40,951 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702226f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:40,951 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:40,951 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702226f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:40,952 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702226f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b57be0>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702226f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:40,953 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:40,953 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:40,953 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:40,953 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:40,953 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:40,953 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:40,954 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:40,954 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:40,954 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:40,955 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:40,955 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:40,955 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702226f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'JYyTdoKDroL3SznR/cBxuQ==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b57be0>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702226f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:40,955 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:40,956 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:40,956 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:40,956 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:40,957 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702226f-a.jpg
+2019-03-21 21:58:40,957 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702226f-a.jpg
+2019-03-21 21:58:40,957 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:40,958 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702226f-a.jpg
+
+content-md5:JYyTdoKDroL3SznR/cBxuQ==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015840Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:40,958 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015840Z
+20190322/us-east-2/s3/aws4_request
+18e8bf2174a65f3d4f8e55c610e3f7eff094921181f83b1ae4f5f3e0e498c3c4
+2019-03-21 21:58:40,958 botocore.auth DEBUG    Signature:
+d9840a85a3ac6177474065ba4405202e620fd2fabff052cded51ed84830e42b8
+2019-03-21 21:58:40,958 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:40,959 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702226f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'JYyTdoKDroL3SznR/cBxuQ==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015840Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=d9840a85a3ac6177474065ba4405202e620fd2fabff052cded51ed84830e42b8', 'Content-Length': '36746'}>
+2019-03-21 21:58:40,959 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:40,960 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:40,999 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:41,075 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702226f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:41,076 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': '01lwmynPVi3U/rv1HW4xHMIhc3F59x5tR+nOa70pUlzsAvw28ER+dpaBK/Eyc/uVSsCOutbgAqg=', 'x-amz-request-id': '63EEB1ACA1FA5082', 'Date': 'Fri, 22 Mar 2019 01:58:41 GMT', 'ETag': '"258c93768283ae82f74b39d1fdc071b9"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:41,076 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:41,077 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:41,077 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:41,077 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:41,077 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:41,078 root         INFO     Saved image to odoren-aws/twitterbot/images/702226f-a.jpg
+2019-03-21 21:58:41,084 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:41,142 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702227f-a.jpg HTTP/1.1" 200 47613
+2019-03-21 21:58:41,144 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:41,145 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b989e8>}) about to wait for the following futures []
+2019-03-21 21:58:41,146 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b989e8>}) done waiting for dependent futures
+2019-03-21 21:58:41,146 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b989e8>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x117b7c6d8>, 'osutil': <s3transfer.utils.OSUtils object at 0x117b7c198>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x116b63f28>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b989e8>}
+2019-03-21 21:58:41,167 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702227f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x116b63f28> for transfer request: 0.
+2019-03-21 21:58:41,168 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:41,168 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702227f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:41,169 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702227f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:41,169 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702227f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b57780>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702227f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:41,170 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:41,170 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:41,170 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:41,171 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:41,171 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:41,171 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:41,171 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:41,172 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:41,173 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:41,173 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:41,173 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:41,173 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:41,173 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702227f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'WfVxh5ok9t0RCaAa6/eM7g==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b57780>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702227f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:41,174 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:41,174 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:41,175 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:41,175 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:41,175 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702227f-a.jpg
+2019-03-21 21:58:41,175 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702227f-a.jpg
+2019-03-21 21:58:41,176 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:41,176 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702227f-a.jpg
+
+content-md5:WfVxh5ok9t0RCaAa6/eM7g==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015841Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:41,176 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015841Z
+20190322/us-east-2/s3/aws4_request
+131e5fe7f51ee5f6d924dbc8ea1d9814367806042cbec7d92f6d9520b9a3ddd2
+2019-03-21 21:58:41,176 botocore.auth DEBUG    Signature:
+91f0e85c2ec1e05a37fefc2951336a496892e192d257df04eccd9c130468bcdc
+2019-03-21 21:58:41,177 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:41,177 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702227f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'WfVxh5ok9t0RCaAa6/eM7g==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015841Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=91f0e85c2ec1e05a37fefc2951336a496892e192d257df04eccd9c130468bcdc', 'Content-Length': '47613'}>
+2019-03-21 21:58:41,178 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:41,178 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:41,228 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:41,315 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702227f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:41,316 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'xx7qrqW9WP1bHVnWlu03Zd6Ddrxd2RQMQ4RTQ0AYIJVrlaE3o0uBG+wZGYltizf0Xc4aZYFNhkg=', 'x-amz-request-id': '3BBF52A9C2745171', 'Date': 'Fri, 22 Mar 2019 01:58:42 GMT', 'ETag': '"59f571879a24f6dd1109a01aebf78cee"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:41,316 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:41,317 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:41,317 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:41,317 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:41,318 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:41,319 root         INFO     Saved image to odoren-aws/twitterbot/images/702227f-a.jpg
+2019-03-21 21:58:41,324 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:41,394 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702228f-a.jpg HTTP/1.1" 200 40544
+2019-03-21 21:58:41,396 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:41,397 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98eb8>}) about to wait for the following futures []
+2019-03-21 21:58:41,397 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98eb8>}) done waiting for dependent futures
+2019-03-21 21:58:41,397 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98eb8>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x116b63f28>, 'osutil': <s3transfer.utils.OSUtils object at 0x116b63588>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b600b8>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98eb8>}
+2019-03-21 21:58:41,405 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702228f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b600b8> for transfer request: 0.
+2019-03-21 21:58:41,405 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:41,406 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702228f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:41,406 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:41,406 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702228f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:41,407 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702228f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b57c50>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702228f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:41,408 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:41,408 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:41,408 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:41,409 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:41,409 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:41,409 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:41,410 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:41,411 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:41,411 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:41,412 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:41,412 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:41,412 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702228f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'AhZNrTg+7mqCNfHX1j6ByQ==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b57c50>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702228f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:41,413 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:41,413 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:41,413 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:41,414 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:41,414 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702228f-a.jpg
+2019-03-21 21:58:41,414 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702228f-a.jpg
+2019-03-21 21:58:41,415 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:41,415 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702228f-a.jpg
+
+content-md5:AhZNrTg+7mqCNfHX1j6ByQ==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015841Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:41,415 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015841Z
+20190322/us-east-2/s3/aws4_request
+53e57d4b0655a6f1ca31ef8055a18e0de705465b6ac5ca59c0653af5875deb38
+2019-03-21 21:58:41,415 botocore.auth DEBUG    Signature:
+970efa6f20ad1ecb7d70f00e0f742508e567ae30f68d6396cb346f4984e807f9
+2019-03-21 21:58:41,416 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:41,416 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702228f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'AhZNrTg+7mqCNfHX1j6ByQ==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015841Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=970efa6f20ad1ecb7d70f00e0f742508e567ae30f68d6396cb346f4984e807f9', 'Content-Length': '40544'}>
+2019-03-21 21:58:41,417 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:41,417 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:41,455 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:41,519 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702228f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:41,520 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'okQ88OzaisneCGVB1uJfKPOHew6BMEWIVD4qCnjhGYDWFk/73WUO9+0JY7+XScgiJEdBIxxbzz0=', 'x-amz-request-id': '1EC34A5F661F37F1', 'Date': 'Fri, 22 Mar 2019 01:58:42 GMT', 'ETag': '"02164dad383eee6a8235f1d7d63e81c9"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:41,520 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:41,521 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:41,521 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:41,521 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:41,522 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:41,523 root         INFO     Saved image to odoren-aws/twitterbot/images/702228f-a.jpg
+2019-03-21 21:58:41,529 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:41,580 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702230f-a.jpg HTTP/1.1" 200 34405
+2019-03-21 21:58:41,582 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:41,583 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b989e8>}) about to wait for the following futures []
+2019-03-21 21:58:41,583 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b989e8>}) done waiting for dependent futures
+2019-03-21 21:58:41,584 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b989e8>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x116b63400>, 'osutil': <s3transfer.utils.OSUtils object at 0x116b63f28>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b60630>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b989e8>}
+2019-03-21 21:58:41,588 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702230f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b60630> for transfer request: 0.
+2019-03-21 21:58:41,589 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:41,589 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702230f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:41,589 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702230f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:41,590 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702230f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b57828>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702230f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:41,590 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:41,590 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:41,591 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:41,591 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:41,591 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:41,592 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:41,592 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:41,592 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:41,593 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:41,593 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:41,593 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:41,593 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:41,593 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702230f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'rnEMijZdbiogduwC0qHkag==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b57828>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702230f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:41,594 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:41,594 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:41,594 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:41,595 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:41,595 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702230f-a.jpg
+2019-03-21 21:58:41,596 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702230f-a.jpg
+2019-03-21 21:58:41,596 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:41,596 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702230f-a.jpg
+
+content-md5:rnEMijZdbiogduwC0qHkag==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015841Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:41,597 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015841Z
+20190322/us-east-2/s3/aws4_request
+72906292774aaf0bee12074fb638ac97f66c2c06c94480a94c5d5513b3d3aa4a
+2019-03-21 21:58:41,597 botocore.auth DEBUG    Signature:
+5e1549cf1533ff40baf9ac0d19053616f690188bc6a16a94ae75f39bfd863574
+2019-03-21 21:58:41,597 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:41,598 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702230f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'rnEMijZdbiogduwC0qHkag==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015841Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=5e1549cf1533ff40baf9ac0d19053616f690188bc6a16a94ae75f39bfd863574', 'Content-Length': '34405'}>
+2019-03-21 21:58:41,599 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:41,599 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:41,640 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:41,729 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702230f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:41,730 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'lKzBB7hOZWH23e3/AqrC+yEG1au/27pcqAHK20DCzWgU0n1/AZCGUk8CdB3Tz4FjRn4EkvGPVFk=', 'x-amz-request-id': 'E5D1A4081FFE834C', 'Date': 'Fri, 22 Mar 2019 01:58:42 GMT', 'ETag': '"ae710c8a365d6e2a2076ec02d2a1e46a"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:41,730 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:41,731 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:41,731 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:41,731 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:41,732 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:41,732 root         INFO     Saved image to odoren-aws/twitterbot/images/702230f-a.jpg
+2019-03-21 21:58:41,738 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:41,785 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702231f-a.jpg HTTP/1.1" 200 34489
+2019-03-21 21:58:41,788 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:41,789 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98320>}) about to wait for the following futures []
+2019-03-21 21:58:41,789 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98320>}) done waiting for dependent futures
+2019-03-21 21:58:41,790 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98320>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x117b7ce48>, 'osutil': <s3transfer.utils.OSUtils object at 0x117b7c198>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b60a20>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98320>}
+2019-03-21 21:58:41,794 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702231f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b60a20> for transfer request: 0.
+2019-03-21 21:58:41,794 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:41,795 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702231f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:41,795 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702231f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:41,796 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702231f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b57f60>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702231f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:41,796 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:41,797 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:41,797 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:41,797 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:41,797 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:41,797 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:41,797 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:41,798 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:41,799 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:41,799 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:41,799 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:41,799 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:41,799 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702231f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': '2DaL953nbjktSpNBUq9PKw==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b57f60>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702231f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:41,800 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:41,800 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:41,801 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:41,801 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:41,801 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702231f-a.jpg
+2019-03-21 21:58:41,801 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702231f-a.jpg
+2019-03-21 21:58:41,802 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:41,802 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702231f-a.jpg
+
+content-md5:2DaL953nbjktSpNBUq9PKw==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015841Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:41,802 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015841Z
+20190322/us-east-2/s3/aws4_request
+9b98bf3f3c7e059ab5a4111ec10537531ef450067757689aab446b498f4f4522
+2019-03-21 21:58:41,803 botocore.auth DEBUG    Signature:
+01ba1fb4d665aae192943f35ec462abd90366740b6330343321af7d8cafe579b
+2019-03-21 21:58:41,803 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:41,804 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702231f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'2DaL953nbjktSpNBUq9PKw==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015841Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=01ba1fb4d665aae192943f35ec462abd90366740b6330343321af7d8cafe579b', 'Content-Length': '34489'}>
+2019-03-21 21:58:41,804 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:41,805 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:41,841 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:41,924 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702231f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:41,925 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'kowqabaOZ7/vcgIal7J2wby4cAdqq0KLKKrlsIaWBYcReyuUlBmmwVObOgjYjMdj+H4HW9i2Ock=', 'x-amz-request-id': '069D26694B06D93F', 'Date': 'Fri, 22 Mar 2019 01:58:42 GMT', 'ETag': '"d8368bf79de76e392d4a934152af4f2b"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:41,925 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:41,926 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:41,926 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:41,926 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:41,927 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:41,928 root         INFO     Saved image to odoren-aws/twitterbot/images/702231f-a.jpg
+2019-03-21 21:58:41,933 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:41,982 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702232f-a.jpg HTTP/1.1" 200 41209
+2019-03-21 21:58:41,984 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:41,984 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa860>}) about to wait for the following futures []
+2019-03-21 21:58:41,985 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa860>}) done waiting for dependent futures
+2019-03-21 21:58:41,985 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa860>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x1179fa6d8>, 'osutil': <s3transfer.utils.OSUtils object at 0x116b63f28>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b600b8>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa860>}
+2019-03-21 21:58:41,997 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702232f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b600b8> for transfer request: 0.
+2019-03-21 21:58:41,998 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:41,999 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702232f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:41,999 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:41,999 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702232f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:42,000 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702232f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b57198>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702232f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:42,001 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:42,001 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:42,001 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:42,002 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:42,002 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,002 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:42,003 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:42,003 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:42,003 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:42,003 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,004 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:42,004 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702232f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'tjhUUPLsULNAB6tgTUWCqw==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b57198>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702232f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:42,004 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:42,005 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:42,005 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:42,005 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:42,006 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702232f-a.jpg
+2019-03-21 21:58:42,006 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702232f-a.jpg
+2019-03-21 21:58:42,006 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:42,006 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702232f-a.jpg
+
+content-md5:tjhUUPLsULNAB6tgTUWCqw==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015842Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:42,007 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015842Z
+20190322/us-east-2/s3/aws4_request
+316e08698eec3efb76658604ed45498226c36f9ae4bb973afdfb3faf6ae412e4
+2019-03-21 21:58:42,007 botocore.auth DEBUG    Signature:
+3b4799d3da713adf1c5b5f0222be21bfc80602931a31ccd2e60d20980db99cd0
+2019-03-21 21:58:42,007 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:42,008 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702232f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'tjhUUPLsULNAB6tgTUWCqw==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015842Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=3b4799d3da713adf1c5b5f0222be21bfc80602931a31ccd2e60d20980db99cd0', 'Content-Length': '41209'}>
+2019-03-21 21:58:42,009 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:42,011 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:42,047 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:42,142 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702232f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:42,143 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': '+JnXpkeT2mQaysKUMkkAiD2OveqN2ZmUBVqyyPgoRZ7yjE5VIaAB2cWJAHtOzJndaFXFt6BFinE=', 'x-amz-request-id': '7A66DAD09AFC5934', 'Date': 'Fri, 22 Mar 2019 01:58:43 GMT', 'ETag': '"b6385450f2ec50b34007ab604d4582ab"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:42,143 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:42,144 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:42,144 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:42,144 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,145 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:42,146 root         INFO     Saved image to odoren-aws/twitterbot/images/702232f-a.jpg
+2019-03-21 21:58:42,152 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:42,228 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702237f-a.jpg HTTP/1.1" 200 39354
+2019-03-21 21:58:42,230 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:42,231 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98c88>}) about to wait for the following futures []
+2019-03-21 21:58:42,231 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98c88>}) done waiting for dependent futures
+2019-03-21 21:58:42,232 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98c88>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x1179fa6d8>, 'osutil': <s3transfer.utils.OSUtils object at 0x1183aaf60>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x1183aa940>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98c88>}
+2019-03-21 21:58:42,252 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702237f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x1183aa940> for transfer request: 0.
+2019-03-21 21:58:42,252 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:42,253 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702237f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:42,255 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:42,255 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702237f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:42,256 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702237f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x1183aa128>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702237f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:42,257 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:42,257 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:42,257 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:42,257 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:42,257 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,258 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:42,258 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:42,259 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:42,259 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:42,259 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,259 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:42,259 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702237f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'ud6jQnJBWwLuHiiMWsN6Jg==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x1183aa128>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702237f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:42,260 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:42,260 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:42,260 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:42,261 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:42,261 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702237f-a.jpg
+2019-03-21 21:58:42,261 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702237f-a.jpg
+2019-03-21 21:58:42,262 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:42,262 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702237f-a.jpg
+
+content-md5:ud6jQnJBWwLuHiiMWsN6Jg==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015842Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:42,262 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015842Z
+20190322/us-east-2/s3/aws4_request
+fbdb2ea4d5c851b4fd5b1b3d4fc3589518cd237a10bcdfeb856a9bccead908d3
+2019-03-21 21:58:42,262 botocore.auth DEBUG    Signature:
+bccf922d394a5649966736e4d25c7b26926998df1b916bcb632a28b1aaa9a37e
+2019-03-21 21:58:42,262 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:42,263 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702237f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'ud6jQnJBWwLuHiiMWsN6Jg==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015842Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=bccf922d394a5649966736e4d25c7b26926998df1b916bcb632a28b1aaa9a37e', 'Content-Length': '39354'}>
+2019-03-21 21:58:42,263 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:42,264 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:42,306 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:42,390 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702237f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:42,391 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'cwDPmjHPjr4uN5P5NVjZ1BmMxljVN2PLvye2urpqQ7AeLdCRtuwi8j5NsysIT8SSa7Ah7offiIs=', 'x-amz-request-id': '0EA726E61FF32A3D', 'Date': 'Fri, 22 Mar 2019 01:58:43 GMT', 'ETag': '"b9dea34272415b02ee1e288c5ac37a26"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:42,391 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:42,392 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:42,393 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:42,393 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,393 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:42,394 root         INFO     Saved image to odoren-aws/twitterbot/images/702237f-a.jpg
+2019-03-21 21:58:42,400 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:42,474 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702237f-b.jpg HTTP/1.1" 200 39562
+2019-03-21 21:58:42,476 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:42,477 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98470>}) about to wait for the following futures []
+2019-03-21 21:58:42,478 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98470>}) done waiting for dependent futures
+2019-03-21 21:58:42,478 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98470>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x1179fa6d8>, 'osutil': <s3transfer.utils.OSUtils object at 0x116b63400>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x1183aa2b0>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b98470>}
+2019-03-21 21:58:42,490 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702237f-b.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x1183aa2b0> for transfer request: 0.
+2019-03-21 21:58:42,491 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:42,491 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702237f-b.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:42,491 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702237f-b.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:42,492 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702237f-b.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x1183aa470>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702237f-b.jpg', 'extra_args': {}}
+2019-03-21 21:58:42,492 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:42,493 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:42,493 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:42,493 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:42,493 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,493 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:42,493 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:42,494 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:42,495 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:42,495 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:42,495 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,495 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:42,495 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702237f-b.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'p2IBNiMaR1oYlYNkBWPb8w==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x1183aa470>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702237f-b.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:42,496 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:42,496 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:42,497 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:42,497 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:42,497 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702237f-b.jpg
+2019-03-21 21:58:42,498 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702237f-b.jpg
+2019-03-21 21:58:42,498 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:42,498 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702237f-b.jpg
+
+content-md5:p2IBNiMaR1oYlYNkBWPb8w==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015842Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:42,498 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015842Z
+20190322/us-east-2/s3/aws4_request
+01452b6f65ec5dc973a2a60ccc56319445b8ffdea240e9a184b05e0feb41857f
+2019-03-21 21:58:42,499 botocore.auth DEBUG    Signature:
+ac97aca7437ed2f2767af59d8d0d7c85be0754bae7f3a877699c739ce1663ded
+2019-03-21 21:58:42,499 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:42,500 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702237f-b.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'p2IBNiMaR1oYlYNkBWPb8w==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015842Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=ac97aca7437ed2f2767af59d8d0d7c85be0754bae7f3a877699c739ce1663ded', 'Content-Length': '39562'}>
+2019-03-21 21:58:42,501 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:42,501 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:42,538 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:42,631 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702237f-b.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:42,632 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'LD7tztlUH+4zJzx5BeOStDDSp8SoiALZMXP7XTBtAzmOqnGk47A45aOcy+L9tuaRz88+lV2jyoA=', 'x-amz-request-id': 'DD691E73A7732000', 'Date': 'Fri, 22 Mar 2019 01:58:43 GMT', 'ETag': '"a7620136231a475a189583640563dbf3"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:42,632 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:42,633 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:42,633 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:42,634 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,634 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:42,635 root         INFO     Saved image to odoren-aws/twitterbot/images/702237f-b.jpg
+2019-03-21 21:58:42,640 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:42,696 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702238f-a.jpg HTTP/1.1" 200 37597
+2019-03-21 21:58:42,699 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:42,700 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b981d0>}) about to wait for the following futures []
+2019-03-21 21:58:42,701 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b981d0>}) done waiting for dependent futures
+2019-03-21 21:58:42,701 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b981d0>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x1174afb38>, 'osutil': <s3transfer.utils.OSUtils object at 0x116b63eb8>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x1183aa240>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b981d0>}
+2019-03-21 21:58:42,709 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702238f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x1183aa240> for transfer request: 0.
+2019-03-21 21:58:42,709 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:42,710 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702238f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:42,710 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:42,710 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702238f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:42,711 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702238f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x1183aa710>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702238f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:42,711 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:42,712 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:42,712 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:42,712 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:42,712 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,712 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:42,713 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:42,714 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:42,715 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:42,715 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,715 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:42,715 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702238f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'viIg+cvjbJsKMPFv++I7kw==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x1183aa710>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702238f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:42,716 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:42,716 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:42,716 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:42,717 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:42,717 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702238f-a.jpg
+2019-03-21 21:58:42,717 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702238f-a.jpg
+2019-03-21 21:58:42,717 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:42,718 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702238f-a.jpg
+
+content-md5:viIg+cvjbJsKMPFv++I7kw==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015842Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:42,718 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015842Z
+20190322/us-east-2/s3/aws4_request
+2665a52e027b11c6d003e43d988a688c99cb7e56da14220dc195f6d604bc0539
+2019-03-21 21:58:42,718 botocore.auth DEBUG    Signature:
+280ce4547ce9c3b30f0599d173fae5b862bea2a6a95421b7d50366b17248de37
+2019-03-21 21:58:42,718 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:42,719 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702238f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'viIg+cvjbJsKMPFv++I7kw==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015842Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=280ce4547ce9c3b30f0599d173fae5b862bea2a6a95421b7d50366b17248de37', 'Content-Length': '37597'}>
+2019-03-21 21:58:42,719 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:42,719 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:42,764 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:42,868 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702238f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:42,869 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'zM8Fah5Y22z235NzLf4gVMO33Hp9GueJngNwW2AxNMZQdZUkiG/HLoEOV87BKitm6e8ZT4pxzao=', 'x-amz-request-id': 'B330D60C29D2EB70', 'Date': 'Fri, 22 Mar 2019 01:58:43 GMT', 'ETag': '"be2220f9cbe36c9b0a30f16ffbe23b93"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:42,870 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:42,871 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:42,871 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:42,871 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,872 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:42,872 root         INFO     Saved image to odoren-aws/twitterbot/images/702238f-a.jpg
+2019-03-21 21:58:42,877 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:42,929 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702238f-b.jpg HTTP/1.1" 200 30349
+2019-03-21 21:58:42,931 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:42,932 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa0f0>}) about to wait for the following futures []
+2019-03-21 21:58:42,932 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa0f0>}) done waiting for dependent futures
+2019-03-21 21:58:42,932 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa0f0>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x10213b0b8>, 'osutil': <s3transfer.utils.OSUtils object at 0x116b63d30>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b98c50>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa0f0>}
+2019-03-21 21:58:42,937 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702238f-b.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b98c50> for transfer request: 0.
+2019-03-21 21:58:42,937 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:42,938 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702238f-b.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:42,938 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702238f-b.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:42,938 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702238f-b.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b98320>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702238f-b.jpg', 'extra_args': {}}
+2019-03-21 21:58:42,939 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:42,939 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:42,939 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:42,939 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:42,939 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,940 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:42,940 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:42,941 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:42,941 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:42,941 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:42,941 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:42,942 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:42,942 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702238f-b.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': '79tQ0XwnFNJSM2v7bdh6zw==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b98320>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702238f-b.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:42,942 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:42,943 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:42,943 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:42,943 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:42,944 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702238f-b.jpg
+2019-03-21 21:58:42,944 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702238f-b.jpg
+2019-03-21 21:58:42,944 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:42,944 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702238f-b.jpg
+
+content-md5:79tQ0XwnFNJSM2v7bdh6zw==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015842Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:42,945 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015842Z
+20190322/us-east-2/s3/aws4_request
+0124defe902c4c3701e7ff3d6e367e0c5d8e19e697fc21cf100f1bc4b3a6a82b
+2019-03-21 21:58:42,945 botocore.auth DEBUG    Signature:
+b8e5da8f9a88e50e0a5ce14daa4e3c2be0288ef5d58d1f198820eb057babdf95
+2019-03-21 21:58:42,945 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:42,946 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702238f-b.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'79tQ0XwnFNJSM2v7bdh6zw==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015842Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=b8e5da8f9a88e50e0a5ce14daa4e3c2be0288ef5d58d1f198820eb057babdf95', 'Content-Length': '30349'}>
+2019-03-21 21:58:42,946 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:42,947 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:42,989 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:43,170 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702238f-b.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:43,171 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'ChZaiNPL5zh53X1Mm4dXhJetsOaXW0i49PXbBJWNLlCnWJglPmty2jlgizhnk1rRuKciWnFkjTA=', 'x-amz-request-id': '7F7560A5FB7991C8', 'Date': 'Fri, 22 Mar 2019 01:58:43 GMT', 'ETag': '"efdb50d17c2714d252336bfb6dd87acf"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:43,171 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:43,172 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:43,172 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:43,173 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:43,173 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:43,174 root         INFO     Saved image to odoren-aws/twitterbot/images/702238f-b.jpg
+2019-03-21 21:58:43,179 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:43,225 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702239f-a.jpg HTTP/1.1" 200 33002
+2019-03-21 21:58:43,227 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:43,228 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aacc0>}) about to wait for the following futures []
+2019-03-21 21:58:43,228 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aacc0>}) done waiting for dependent futures
+2019-03-21 21:58:43,228 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aacc0>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x1174afb38>, 'osutil': <s3transfer.utils.OSUtils object at 0x116b63f28>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b98128>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aacc0>}
+2019-03-21 21:58:43,233 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702239f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b98128> for transfer request: 0.
+2019-03-21 21:58:43,233 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:43,233 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702239f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:43,234 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702239f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:43,234 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702239f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b98630>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702239f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:43,235 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:43,235 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:43,235 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:43,235 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:43,235 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:43,236 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:43,236 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:43,237 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:43,237 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:43,237 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:43,237 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:43,237 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:43,237 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702239f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'e04dcoRHa+FlUSDIpI74Ng==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b98630>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702239f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:43,238 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:43,238 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:43,238 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:43,239 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:43,239 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702239f-a.jpg
+2019-03-21 21:58:43,239 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702239f-a.jpg
+2019-03-21 21:58:43,240 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:43,240 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702239f-a.jpg
+
+content-md5:e04dcoRHa+FlUSDIpI74Ng==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015843Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:43,240 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015843Z
+20190322/us-east-2/s3/aws4_request
+68e0dac0781a98a4149495ed3b89e8524d1b0f152654b16d58b7ab0ba1038fc8
+2019-03-21 21:58:43,240 botocore.auth DEBUG    Signature:
+2eb30452ae0f9d9ded87f419fd1bce354295a882da25fad679728dac8d8f8c60
+2019-03-21 21:58:43,240 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:43,240 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702239f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'e04dcoRHa+FlUSDIpI74Ng==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015843Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=2eb30452ae0f9d9ded87f419fd1bce354295a882da25fad679728dac8d8f8c60', 'Content-Length': '33002'}>
+2019-03-21 21:58:43,241 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:43,241 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:43,280 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:43,398 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702239f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:43,399 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'EfaO2nTtmoaQGUDVbeZSVDkAV7SSVZKYOGkFDSzmkHtijqj+hgcP1Fc4wFolH5wSikkQMIPBAY8=', 'x-amz-request-id': '047BD849A412BC7C', 'Date': 'Fri, 22 Mar 2019 01:58:44 GMT', 'ETag': '"7b4e1d7284476be1655120c8a48ef836"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:43,399 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:43,400 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:43,400 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:43,400 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:43,400 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:43,401 root         INFO     Saved image to odoren-aws/twitterbot/images/702239f-a.jpg
+2019-03-21 21:58:43,407 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:43,443 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702240f-a.jpg HTTP/1.1" 200 32617
+2019-03-21 21:58:43,445 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:43,446 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa7f0>}) about to wait for the following futures []
+2019-03-21 21:58:43,446 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa7f0>}) done waiting for dependent futures
+2019-03-21 21:58:43,446 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa7f0>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x10213b0b8>, 'osutil': <s3transfer.utils.OSUtils object at 0x117b984e0>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b7c748>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa7f0>}
+2019-03-21 21:58:43,452 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702240f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b7c748> for transfer request: 0.
+2019-03-21 21:58:43,452 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:43,452 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702240f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:43,453 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702240f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:43,453 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702240f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b98470>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702240f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:43,454 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:43,454 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:43,454 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:43,454 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:43,455 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:43,455 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:43,455 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:43,456 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:43,456 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:43,456 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:43,456 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:43,456 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:43,456 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702240f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'Am/ijk8+Cuzt2AOH6VPdng==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b98470>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702240f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:43,457 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:43,457 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:43,457 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:43,457 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:43,457 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702240f-a.jpg
+2019-03-21 21:58:43,458 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702240f-a.jpg
+2019-03-21 21:58:43,458 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:43,458 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702240f-a.jpg
+
+content-md5:Am/ijk8+Cuzt2AOH6VPdng==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015843Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:43,458 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015843Z
+20190322/us-east-2/s3/aws4_request
+ec6d4d47af8018b0794b3c820bca6a48752ab17a13a826ea42eb56fc186432e7
+2019-03-21 21:58:43,458 botocore.auth DEBUG    Signature:
+3a3c982050d2cc4cc7e9deb55ba257549252fb9ea709175ad7dcf831d21e85df
+2019-03-21 21:58:43,458 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:43,459 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702240f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'Am/ijk8+Cuzt2AOH6VPdng==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015843Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=3a3c982050d2cc4cc7e9deb55ba257549252fb9ea709175ad7dcf831d21e85df', 'Content-Length': '32617'}>
+2019-03-21 21:58:43,459 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:43,459 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:43,516 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:43,595 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702240f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:43,596 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': '277ddXv6425ES9jPac+w48f2h4F1S7DO5FsSQoTuyCxiQfcpW6bdt8gTmU9F8I44IB/1s19nz9E=', 'x-amz-request-id': 'ED4E80AF86EAEFC5', 'Date': 'Fri, 22 Mar 2019 01:58:44 GMT', 'ETag': '"026fe28e4f3e0aecedd80387e953dd9e"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:43,596 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:43,597 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:43,597 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:43,597 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:43,598 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:43,598 root         INFO     Saved image to odoren-aws/twitterbot/images/702240f-a.jpg
+2019-03-21 21:58:43,604 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:43,648 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702241f-a.jpg HTTP/1.1" 200 24012
+2019-03-21 21:58:43,650 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:43,650 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa6d8>}) about to wait for the following futures []
+2019-03-21 21:58:43,651 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa6d8>}) done waiting for dependent futures
+2019-03-21 21:58:43,651 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa6d8>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x1174afb38>, 'osutil': <s3transfer.utils.OSUtils object at 0x116b8b588>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b7cf28>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x1183aa6d8>}
+2019-03-21 21:58:43,656 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702241f-a.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b7cf28> for transfer request: 0.
+2019-03-21 21:58:43,656 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:43,656 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702241f-a.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:43,657 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702241f-a.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:43,657 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702241f-a.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b989e8>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702241f-a.jpg', 'extra_args': {}}
+2019-03-21 21:58:43,657 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:43,658 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:43,658 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:43,658 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:43,658 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:43,658 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:43,659 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:43,659 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:43,660 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:43,660 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:43,660 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:43,660 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:43,660 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702241f-a.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'juZCH4jelSVSsTcXaAlwOA==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b989e8>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702241f-a.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:43,661 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:43,661 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:43,662 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:43,662 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:43,662 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702241f-a.jpg
+2019-03-21 21:58:43,662 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702241f-a.jpg
+2019-03-21 21:58:43,663 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:43,663 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702241f-a.jpg
+
+content-md5:juZCH4jelSVSsTcXaAlwOA==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015843Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:43,663 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015843Z
+20190322/us-east-2/s3/aws4_request
+dd75d8673eb2d31c4479c739215ada7f4124d6241f8b509b51fae43a5cd4d18d
+2019-03-21 21:58:43,664 botocore.auth DEBUG    Signature:
+38e98deba10ec3f09264aa2e2c84ee595d521fa5439a9726535d75c7cfb4eaef
+2019-03-21 21:58:43,664 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:43,664 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702241f-a.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'juZCH4jelSVSsTcXaAlwOA==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015843Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=38e98deba10ec3f09264aa2e2c84ee595d521fa5439a9726535d75c7cfb4eaef', 'Content-Length': '24012'}>
+2019-03-21 21:58:43,665 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:43,666 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:43,710 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:43,761 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702241f-a.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:43,762 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'TwbmOP6NVdP/jjP7u+0BcHVn1xV577cvx+prVFdUBaNppuWGNkjKV22LW0w17hvuJNLyPTa6rfA=', 'x-amz-request-id': 'A7BC809DBFD937F2', 'Date': 'Fri, 22 Mar 2019 01:58:44 GMT', 'ETag': '"8ee6421f88de952552b1371768097038"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:43,762 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:43,763 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:43,763 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:43,764 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:43,764 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:43,765 root         INFO     Saved image to odoren-aws/twitterbot/images/702241f-a.jpg
+2019-03-21 21:58:43,770 urllib3.connectionpool DEBUG    Starting new HTTP connection (1): oldnyc-assets.nypl.org:80
+2019-03-21 21:58:43,828 urllib3.connectionpool DEBUG    http://oldnyc-assets.nypl.org:80 "GET /600px/702241f-b.jpg HTTP/1.1" 200 23848
+2019-03-21 21:58:43,831 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:43,831 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b57a20>}) about to wait for the following futures []
+2019-03-21 21:58:43,832 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b57a20>}) done waiting for dependent futures
+2019-03-21 21:58:43,832 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b57a20>}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'config': <boto3.s3.transfer.TransferConfig object at 0x116b63d30>, 'osutil': <s3transfer.utils.OSUtils object at 0x117b98438>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x117b7c198>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x117b57a20>}
+2019-03-21 21:58:43,836 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702241f-b.jpg', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x117b7c198> for transfer request: 0.
+2019-03-21 21:58:43,837 s3transfer.utils DEBUG    Acquiring 0
+2019-03-21 21:58:43,837 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702241f-b.jpg', 'extra_args': {}}) about to wait for the following futures []
+2019-03-21 21:58:43,837 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702241f-b.jpg', 'extra_args': {}}) done waiting for dependent futures
+2019-03-21 21:58:43,838 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'odoren-aws', 'key': 'twitterbot/images/702241f-b.jpg', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x1179ed9e8>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x117b987f0>, 'bucket': 'odoren-aws', 'key': 'twitterbot/images/702241f-b.jpg', 'extra_args': {}}
+2019-03-21 21:58:43,838 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x10d8820d0>
+2019-03-21 21:58:43,838 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x10d881378>
+2019-03-21 21:58:43,839 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:43,839 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x10d8828c8>
+2019-03-21 21:58:43,839 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x10d8812f0>
+2019-03-21 21:58:43,840 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:43,840 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x10d87fea0>
+2019-03-21 21:58:43,840 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x10d881268>
+2019-03-21 21:58:43,841 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x10d8817b8>
+2019-03-21 21:58:43,841 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2019-03-21 21:58:43,841 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:43,841 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x10d8829d8>
+2019-03-21 21:58:43,841 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/odoren-aws/twitterbot/images/702241f-b.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': 'Tjyy4e6wxdrjK3KmYMm24A==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x117b987f0>, 'url': 'https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702241f-b.jpg', 'context': {'client_region': 'us-east-2', 'client_config': <botocore.config.Config object at 0x1179fa358>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'odoren-aws'}}}
+2019-03-21 21:58:43,842 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x117aac268>
+2019-03-21 21:58:43,842 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x1179edef0>>
+2019-03-21 21:58:43,842 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x10d87fd90>
+2019-03-21 21:58:43,843 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <function fix_s3_host at 0x10d715bf8>
+2019-03-21 21:58:43,843 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/odoren-aws/twitterbot/images/702241f-b.jpg
+2019-03-21 21:58:43,843 botocore.utils DEBUG    URI updated to: https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702241f-b.jpg
+2019-03-21 21:58:43,844 botocore.auth DEBUG    Calculating signature using v4 auth.
+2019-03-21 21:58:43,844 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/twitterbot/images/702241f-b.jpg
+
+content-md5:Tjyy4e6wxdrjK3KmYMm24A==
+host:odoren-aws.s3.us-east-2.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20190322T015843Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2019-03-21 21:58:43,844 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20190322T015843Z
+20190322/us-east-2/s3/aws4_request
+7b4d1f5af3a0b5801350b905f47a210867c3f377d123dc2e0869d8944e787ae7
+2019-03-21 21:58:43,844 botocore.auth DEBUG    Signature:
+edabeac631f58cc9505e09970bf3c79d286104673ab805c235a75480f306ceb1
+2019-03-21 21:58:43,845 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x117aac2f0>
+2019-03-21 21:58:43,845 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://odoren-aws.s3.us-east-2.amazonaws.com/twitterbot/images/702241f-b.jpg, headers={'User-Agent': b'Boto3/1.9.119 Python/3.6.3 Darwin/18.0.0 Botocore/1.12.119 Resource', 'Content-MD5': b'Tjyy4e6wxdrjK3KmYMm24A==', 'Expect': b'100-continue', 'X-Amz-Date': b'20190322T015843Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAJ42STBMNYASJHUYA/20190322/us-east-2/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=edabeac631f58cc9505e09970bf3c79d286104673ab805c235a75480f306ceb1', 'Content-Length': '23848'}>
+2019-03-21 21:58:43,846 urllib3.util.retry DEBUG    Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2019-03-21 21:58:43,846 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2019-03-21 21:58:43,896 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2019-03-21 21:58:43,983 urllib3.connectionpool DEBUG    https://odoren-aws.s3.us-east-2.amazonaws.com:443 "PUT /twitterbot/images/702241f-b.jpg HTTP/1.1" 200 0
+2019-03-21 21:58:43,984 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'Wr6H3zRGi6EfQVE5w18ZoD3iLvkcGK8csxU9O2Em4SLcOz0DT9pDikfAk4mmIclEKTgzlDxbCek=', 'x-amz-request-id': '9F6A7C9FBE5807BE', 'Date': 'Fri, 22 Mar 2019 01:58:44 GMT', 'ETag': '"4e3cb2e1eeb0c5dae32b72a660c9b6e0"', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2019-03-21 21:58:43,984 botocore.parsers DEBUG    Response body:
+b''
+2019-03-21 21:58:43,985 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x117af2630>
+2019-03-21 21:58:43,985 botocore.retryhandler DEBUG    No retry needed.
+2019-03-21 21:58:43,986 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x117af25f8>>
+2019-03-21 21:58:43,986 s3transfer.utils DEBUG    Releasing acquire 0/None
+2019-03-21 21:58:43,987 root         INFO     Saved image to odoren-aws/twitterbot/images/702241f-b.jpg
+2019-03-21 21:58:43,987 root         INFO     Generating content json file...
+2019-03-21 21:58:44,049 root         INFO     Done.

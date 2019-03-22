@@ -1,0 +1,21 @@
+id,year,family_id,original_image_url,borough,place,coordinates,neighborhood_hist,neighborhood_curr,image_name
+1557788,1927,1557788,http://oldnyc-assets.nypl.org/600px/1557788.jpg,Brooklyn,Hanson Place - Ashland Place,"[-73.977953, 40.685094]",Fort Greene,Fort Greene,1557788.jpg
+1557810,1933,1557810,http://oldnyc-assets.nypl.org/600px/1557810.jpg,Brooklyn,321 Thatford Avenue - Riverdale Avenue,"[-73.907616, 40.66114]",Brownsville,Brownsville,1557810.jpg
+702214f-a,1930,702214f,http://oldnyc-assets.nypl.org/600px/702214f-a.jpg,Brooklyn,1st Place - Clinton Street,"[-73.998871, 40.68087]",Columbia St,Columbia St,702214f-a.jpg
+702224f-a,1918,702224f,http://oldnyc-assets.nypl.org/600px/702224f-a.jpg,Brooklyn,2nd Avenue - 40th Street,"[-74.011103, 40.654695]",Greenwood Heights,Greenwood Heights,702224f-a.jpg
+702225f-a,1945,702225f,http://oldnyc-assets.nypl.org/600px/702225f-a.jpg,Brooklyn,2nd Avenue - 40th Street,"[-74.011103, 40.654695]",Greenwood Heights,Greenwood Heights,702225f-a.jpg
+702225f-b,1945,702225f,http://oldnyc-assets.nypl.org/600px/702225f-b.jpg,Brooklyn,2nd Avenue - 40th Street,"[-74.011103, 40.654695]",Greenwood Heights,Greenwood Heights,702225f-b.jpg
+702226f-a,1940,702226f,http://oldnyc-assets.nypl.org/600px/702226f-a.jpg,Brooklyn,2nd Place - Court Street,"[-73.997283, 40.679502]",Carroll Gardens,Carroll Gardens,702226f-a.jpg
+702227f-a,1930,702227f,http://oldnyc-assets.nypl.org/600px/702227f-a.jpg,Brooklyn,2nd Street - 6th Avenue,"[-73.980428, 40.67226]",Central Slope,Central Slope,702227f-a.jpg
+702228f-a,1928,702228f,http://oldnyc-assets.nypl.org/600px/702228f-a.jpg,Brooklyn,2nd Street (East) - Avenue P,"[-73.971936, 40.60894]",Ocean Parkway,Ocean Parkway,702228f-a.jpg
+702230f-a,1935,702230f,http://oldnyc-assets.nypl.org/600px/702230f-a.jpg,Brooklyn,2nd Street (South) - Driggs Avenue,"[-73.960561, 40.712713]",South Williamsburg,South Williamsburg,702230f-a.jpg
+702231f-a,1931,702231f,http://oldnyc-assets.nypl.org/600px/702231f-a.jpg,Brooklyn,2nd Street (South) - Keap Street,"[-73.953858, 40.710262]",East Williamsburg,East Williamsburg,702231f-a.jpg
+702232f-a,1931,702232f,http://oldnyc-assets.nypl.org/600px/702232f-a.jpg,Brooklyn,2nd Street (South) - Keap Street,"[-73.953858, 40.710262]",East Williamsburg,East Williamsburg,702232f-a.jpg
+702237f-a,1930,702237f,http://oldnyc-assets.nypl.org/600px/702237f-a.jpg,Brooklyn,3rd Avenue - Schermerhorn Street,"[-73.979846, 40.686576]",Boerum Hill,Boerum Hill,702237f-a.jpg
+702237f-b,1930,702237f,http://oldnyc-assets.nypl.org/600px/702237f-b.jpg,Brooklyn,3rd Avenue - Schermerhorn Street,"[-73.979846, 40.686576]",Boerum Hill,Boerum Hill,702237f-b.jpg
+702238f-a,1930,702238f,http://oldnyc-assets.nypl.org/600px/702238f-a.jpg,Brooklyn,3rd Avenue - Schermerhorn Street,"[-73.979846, 40.686576]",Boerum Hill,Boerum Hill,702238f-a.jpg
+702238f-b,1930,702238f,http://oldnyc-assets.nypl.org/600px/702238f-b.jpg,Brooklyn,3rd Avenue - Schermerhorn Street,"[-73.979846, 40.686576]",Boerum Hill,Boerum Hill,702238f-b.jpg
+702239f-a,1931,702239f,http://oldnyc-assets.nypl.org/600px/702239f-a.jpg,Brooklyn,3rd Avenue - State Street,"[-73.980254, 40.685964]",Boerum Hill,Boerum Hill,702239f-a.jpg
+702240f-a,1922,702240f,http://oldnyc-assets.nypl.org/600px/702240f-a.jpg,Brooklyn,3rd Avenue - State Street,"[-73.980254, 40.685964]",Boerum Hill,Boerum Hill,702240f-a.jpg
+702241f-a,1942,702241f,http://oldnyc-assets.nypl.org/600px/702241f-a.jpg,Brooklyn,3rd Avenue - Schermerhorn Street,"[-73.979846, 40.686576]",Boerum Hill,Boerum Hill,702241f-a.jpg
+702241f-b,1942,702241f,http://oldnyc-assets.nypl.org/600px/702241f-b.jpg,Brooklyn,3rd Avenue - Schermerhorn Street,"[-73.979846, 40.686576]",Boerum Hill,Boerum Hill,702241f-b.jpg
