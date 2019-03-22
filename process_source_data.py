@@ -3,6 +3,7 @@ import requests
 import boto3
 import pandas as pd
 import json
+import os
 import sys
 import logging
 
@@ -26,9 +27,9 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 
-# Flickr credentials for retrieving neighborhood data
-flickr_key = 'f5c33286ba52899be026f8d09e5e0ab4'
-flickr_secret = 'ba3dd7afdebf2c06'
+# Define Flickr credentials for retrieving neighborhood data
+flickr_key = os.environ['FLICKR_KEY']
+flickr_secret = os.environ['FLICKR_SECRET']
 flickr_endpoint = 'https://api.flickr.com/services'
 
 
