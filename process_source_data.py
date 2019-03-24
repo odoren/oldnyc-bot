@@ -13,19 +13,16 @@ logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s %(name)-12s %(levelname)-8s %(message)s')
 log_filename = 'logs/processing.log'
-
 # Stream handler
 stream_handler = logging.StreamHandler()
 stream_handler.setLevel(logging.INFO)
 stream_handler.setFormatter(formatter)
 logger.addHandler(stream_handler)
-
 # File handler
 file_handler = logging.FileHandler(log_filename)
 file_handler.setLevel(logging.DEBUG)
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
-
 
 # Define Flickr credentials for retrieving neighborhood data
 flickr_key = os.environ['FLICKR_KEY']
@@ -33,6 +30,8 @@ flickr_secret = os.environ['FLICKR_SECRET']
 flickr_endpoint = 'https://api.flickr.com/services'
 
 
+# Converts source data CSV to Pandas data frame to facilitate maniuplation of values and columns
+# Generates processed.csv for readable output / manual debugging
 def import_source_data_csv(file):
 	df = pd.read_csv(file)
     
@@ -136,7 +135,7 @@ def download_image_local(image_name, image_url):
 		logger.info('Could not save image from %s', image_url)
 
 
-# API stream from source to dedicated S3 bucket
+# API stream of source images to dedicated S3 bucket
 def download_image_s3(bucket, image_name, image_url):
 	key = 'oldnyc-bot/images/' + image_name
 
