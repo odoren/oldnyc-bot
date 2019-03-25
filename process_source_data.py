@@ -153,7 +153,7 @@ def main():
 
 	logger.info("Downloading images from source platform...")
 	s3 = boto3.resource('s3')
-	bucket = s3.Bucket('odoren-aws')
+	bucket = s3.Bucket(os.environ['AWS_BUCKET'])
 	for index, row in df.iterrows():
 		download_image_s3(bucket, row['image_name'], row['original_image_url'])
 		#download_image_local(row['image_name'], row['original_image_url'])		

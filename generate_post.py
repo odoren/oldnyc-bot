@@ -50,7 +50,7 @@ def compile_post_media(place):
 
 	# Download from S3 to local tmp directory
 	s3 = boto3.resource('s3')
-	bucket = s3.Bucket('odoren-aws')
+	bucket = s3.Bucket(os.environ['AWS_BUCKET'])
 	for filename in filenames:
 		key = "oldnyc-bot/images/%s" % filename
 		local_path = "tmp/%s" % filename
