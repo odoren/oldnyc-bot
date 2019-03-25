@@ -1,5 +1,9 @@
 .DS_Store
 __pycache__
 .*ipynb.*
+processing.log
+posting.log
+processed.csv
+content.json
 testing/
 images/

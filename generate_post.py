@@ -74,9 +74,11 @@ def post_tweet():
 	media_ids = compile_post_media(place)
 
 	if status and media_ids:
-		api.update_status(status=status, media_ids=media_ids)
-		logger.info('Tweet successfully posted for place id %s.', place['family_id'])
-
+		try:
+			api.update_status(status=status, media_ids=media_ids)
+			logger.info("Tweet successfully posted for place id %s.", place['family_id'])
+		except:
+			logger.info("Unable to post tweet for place id %s.", place['family_id'])
 
 
 def select_place():
