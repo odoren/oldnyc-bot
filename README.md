@@ -14,5 +14,6 @@ Coming soon...
 ## Todo
 * Modify the `select_place()` method to re-generate the `content.json` file when all available places have been posted.
 * Add functionality to append additional place objects to `content.json` while the bot is running.
+* Implement push notifications for error logging.
 
 
