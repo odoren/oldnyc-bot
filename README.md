@@ -4,7 +4,7 @@
 
 ## Build
 
-oldnyc-bot Bot runs on Python 3 standard libraries, as well as [boto3](https://github.com/boto/boto3) for streaming images via S3 and [tweepy](https://github.com/tweepy/tweepy) for posting of message and media content to the Twitter platform. Additionally, the bot makes use of the [Flickr places API](https://www.flickr.com/services/api/flickr.places.findByLatLon.html) to gather qualitative neighborhood information from sets of geographic coordinates. 
+oldnyc-bot runs on Python 3 standard libraries, as well as [boto3](https://github.com/boto/boto3) for streaming images via S3 and [tweepy](https://github.com/tweepy/tweepy) for posting of message and media content to the Twitter platform. Additionally, the bot makes use of the [Flickr places API](https://www.flickr.com/services/api/flickr.places.findByLatLon.html) to gather qualitative neighborhood information from sets of geographic coordinates. 
 
 
 ## How to run
