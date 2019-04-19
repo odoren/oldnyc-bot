@@ -5,5 +5,11 @@ processing.log
 posting.log
 processed.csv
 content.json
-testing/
-images/
+testing
+images
+bin
+include
+lib
+lib64
+local 
+pip-selfcheck.json
