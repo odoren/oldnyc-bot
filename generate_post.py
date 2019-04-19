@@ -5,7 +5,6 @@ import logging
 import tweepy
 import random
 import os
-import process_source_data
 
 
 # Logging
