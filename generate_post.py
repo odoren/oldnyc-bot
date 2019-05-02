@@ -33,7 +33,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 
-
+# Generate text content of tweet and format for tweepy API
 def compile_post_text(place):
 	place_name = place['place']
 	neighborhood = place['neighborhood_curr']
@@ -43,6 +43,7 @@ def compile_post_text(place):
 	return status
 
 
+# Find place image(s) in S3 and format for tweepy API
 def compile_post_media(place):
 	filenames = [image['image_name'] for image in place['images'][:4]]
 	files = []
@@ -66,24 +67,13 @@ def compile_post_media(place):
 	return media_ids
 
 
-def post_tweet():
-	place = select_place()
-
-	status = compile_post_text(place)
-	media_ids = compile_post_media(place)
-
-	if status and media_ids:
-		try:
-			api.update_status(status=status, media_ids=media_ids)
-			logger.info("Tweet successfully posted for place id %s.", place['family_id'])
-		except:
-			logger.info("Unable to post tweet for place id %s.", place['family_id'])
-
-
+# Randomly select a place object and remove it from content.json
 def select_place():
 	with open('content.json') as f:
 		data = json.load(f)
 
+	# Under construction...
+	# Will automatically regnerate content.json when all place objects have been posted
 	if not data:
 		logger.info('No more places available. Resetting content.json...')
 		# Reset content.json
@@ -101,6 +91,19 @@ def select_place():
 		return choice
 
 
+def post_tweet():
+	place = select_place()
+
+	status = compile_post_text(place)
+	media_ids = compile_post_media(place)
+
+	if status and media_ids:
+		try:
+			api.update_status(status=status, media_ids=media_ids)
+			logger.info("Tweet successfully posted for place id %s.", place['family_id'])
+		except:
+			logger.info("Unable to post tweet for place id %s.", place['family_id'])
+
 
 def main():
 	post_tweet()
@@ -108,4 +111,3 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
