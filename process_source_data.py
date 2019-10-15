@@ -24,11 +24,6 @@ file_handler.setLevel(logging.DEBUG)
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
-# Define Flickr credentials for retrieving neighborhood data
-flickr_key = os.environ['FLICKR_KEY']
-flickr_secret = os.environ['FLICKR_SECRET']
-flickr_endpoint = 'https://api.flickr.com/services'
-
 
 # Converts source data CSV to Pandas data frame to facilitate maniuplation of values and columns
 # Generates processed.csv for readable output / manual debugging
@@ -48,28 +43,23 @@ def import_source_data_csv(file):
 	return df
 
 
-# Retrieves neighborhood name from coordinates via Flickr API
+# Retrieves neighborhood name from coordinates via Google Maps API
 def get_neighborhood(place_id, coordinates):
 	lon = str(coordinates[0])
 	lat = str(coordinates[1])
 
-	url = flickr_endpoint + '/rest/'
+	url = 'https://maps.googleapis.com/maps/api/geocode/json'
 	payload = {
-		'method': 'flickr.places.findByLatLon',
-		'format': 'json',
-		'api_key': flickr_key,
-		'lon': lon,
-		'lat': lat,
-		'accuracy': '16',
-		'nojsoncallback': '1'
+	    'result_type': 'neighborhood',
+		'latlng': lat + ',' + lon,
+		'key': os.environ['GOOGLE_MAPS_API_KEY']
 	}
 	headers = {
 		'Content-Type': 'application/json'
 	}
-
 	try: 
 		r = requests.get(url, params=payload, headers=headers)
-		neighborhood = json.loads(r.text)['places']['place'][0]['woe_name']
+		neighborhood = json.loads(r.text)['results'][0]['formatted_address'].split(',')[0]
 		logger.info('Retrived neighborhood for id %s [%s,%s]: %s', place_id, lat, lon, neighborhood)
 		return neighborhood
 	except:
@@ -79,34 +69,13 @@ def get_neighborhood(place_id, coordinates):
 
 # Manual transformation of obsolete neighborhood names to modern usage
 def neighborhood_transform(neighborhood):
-	neighborhood_dict = {
-		'Georgetown': 'Bergen Beach',
-		'Madison': 'Sheepshead Bay',
-		'Rugby': 'East Flatbush',
-		'New Lots': 'East New York',
-		'Adelphi': 'Clinton Hill',
-		'City Line': 'East New York',
-		'Remsen Village': 'Canarsie',
-		'Weeksville': 'Crown Heights',
-		'Ocean Hill': 'Bedford-Stuyvesant',
-		'Bedford': 'Bedford-Stuyvesant',
-		'Farragut': 'East Flatbush',
-		'Little Odessa': 'Brighton Beach',
-		'Blissville': 'Sunnyside',
-		'Morgan Avenue': 'East Williamsburg',
-		'Wingate': 'Prospect Lefferts Gardens',
-		'Paerdegat': 'Canarsie',
-		'Starrett City': 'East New York',
-		'Northwestern Brooklyn': 'Dumbo',
-		'Haberman': 'East Williamsburg',
-		'Little Poland': 'Greenpoint',
-		'Plum Beach': 'Sheepshead Bay'
-	}
+	with open('src/neighborhood_dict.json') as f:
+    	neighborhood_dict = json.load(f)
 
-	if neighborhood in neighborhood_dict:
-		return neighborhood_dict[neighborhood]
-	else:
-		return neighborhood
+		if neighborhood in neighborhood_dict:
+			return neighborhood_dict[neighborhood]
+		else:
+			return neighborhood
 
 
 # Generates main json document with post-ready data
@@ -156,7 +125,6 @@ def main():
 	bucket = s3.Bucket(os.environ['AWS_BUCKET'])
 	for index, row in df.iterrows():
 		download_image_s3(bucket, row['image_name'], row['original_image_url'])
-		#download_image_local(row['image_name'], row['original_image_url'])		
 
 	logger.info("Generating content json file...")
 	generate_content_json(df)

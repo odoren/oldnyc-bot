@@ -2,6 +2,7 @@
 __pycache__
 *.pyc
 .*ipynb.*
+logs
 processing.log
 posting.log
 processed.csv
