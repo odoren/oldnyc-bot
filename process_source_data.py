@@ -70,7 +70,7 @@ def get_neighborhood(place_id, coordinates):
 # Manual transformation of obsolete neighborhood names to modern usage
 def neighborhood_transform(neighborhood):
 	with open('src/neighborhood_dict.json') as f:
-    	neighborhood_dict = json.load(f)
+		neighborhood_dict = json.load(f)
 
 		if neighborhood in neighborhood_dict:
 			return neighborhood_dict[neighborhood]
