@@ -1,0 +1,288 @@
+{
+  "name": "oldnyc",
+  "id": "http://spacetime.nypl.org/#data-oldnyc",
+  "created": "2017-12-08T16:33:29.653Z",
+  "title": "OldNYC",
+  "description": "OldNYC provides an alternative way of browsing the NYPL's incredible Photographic Views of New York City, 1870s-1970s collection. Its goal is to help you discover the history behind the places you see every day.",
+  "version": "0.3.1",
+  "homepage": "https://www.oldnyc.org/",
+  "resources": [
+    {
+      "name": "oldnyc.zip",
+      "format": "zip",
+      "description": "ZIP file containing all the files in this dataset",
+      "mediatype": "application/zip",
+      "path": "oldnyc.zip"
+    },
+    {
+      "name": "oldnyc.objects.ndjson",
+      "format": "ndjson",
+      "description": "NDJSON file with all the objects in the dataset",
+      "mediatype": "application/x-ndjson",
+      "path": "oldnyc.objects.ndjson",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "definitions": {
+          "date": {
+            "type": "string",
+            "pattern": "^-?([0-9]{1,4}|[0-9]{2})-([0]?[1-9]|[1][0-2])-([0]?[1-9]|[1|2][0-9]|[3][0|1])$"
+          },
+          "year": {
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^-?\\d{1,4}$"
+              },
+              {
+                "type": "integer",
+                "minimum": -10000,
+                "maximum": 10000
+              }
+            ]
+          },
+          "fuzzyDate": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/year"
+              },
+              {
+                "$ref": "#/definitions/date"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "date": {
+                    "$ref": "#/definitions/year"
+                  },
+                  "error": {
+                    "type": "string",
+                    "pattern": "\\d+y"
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "date",
+                  "error"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "date": {
+                    "$ref": "#/definitions/date"
+                  },
+                  "error": {
+                    "type": "string",
+                    "pattern": "\\d+(d|M|y)"
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "date",
+                  "error"
+                ]
+              },
+              {
+                "type": "array",
+                "items": [
+                  {
+                    "$ref": "#/definitions/year"
+                  },
+                  {
+                    "$ref": "#/definitions/year"
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "items": [
+                  {
+                    "$ref": "#/definitions/date"
+                  },
+                  {
+                    "$ref": "#/definitions/date"
+                  }
+                ]
+              },
+              {
+                "type": "string",
+                "pattern": "-?\\d+±\\d"
+              }
+            ]
+          }
+        },
+        "type": "object",
+        "description": "NYC Space/Time Directory Object, with identifier, name, date, geometry and data fields",
+        "properties": {
+          "id": {
+            "type": [
+              "integer",
+              "string"
+            ],
+            "pattern": "^[a-zA-Z0-9]+[\\w\\._-]*$",
+            "description": "Identifier of Object, must be unique in this dataset"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name or title of Object"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "st:Place",
+              "st:Address",
+              "st:Building",
+              "st:Ward",
+              "st:Map",
+              "st:Photo",
+              "st:Person",
+              "st:Street",
+              "st:Church",
+              "st:OralHistory",
+              "st:Document",
+              "st:EnumerationDistrict",
+              "st:Borough",
+              "st:Neighborhood"
+            ],
+            "description": "Object type, must be one of the types in the enum"
+          },
+          "validSince": {
+            "$ref": "#/definitions/fuzzyDate",
+            "description": "Date or year from when Object exists or is valid"
+          },
+          "validUntil": {
+            "$ref": "#/definitions/fuzzyDate",
+            "description": "Date or year until when Object exists or is valid"
+          },
+          "geometry": {
+            "type": "object",
+            "description": "GeoJSON geometry, either a Point, LineString or Polygon (or their Multi variants), or a GeometryCollection"
+          },
+          "data": {
+            "type": "object",
+            "description": "Object data",
+            "$schema": "http://json-schema.org/draft-04/schema#",
+            "additionalProperties": false,
+            "required": [
+              "uuid",
+              "imageId",
+              "url",
+              "imageUrl",
+              "nyplUrl"
+            ],
+            "properties": {
+              "uuid": {
+                "type": "string",
+                "description": "NYPL UUID of item"
+              },
+              "imageId": {
+                "type": "string",
+                "description": "NYPL Image ID"
+              },
+              "text": {
+                "type": "string",
+                "description": "Text from back of photo, extracted using OCR"
+              },
+              "folder": {
+                "type": "string",
+                "description": "Normalized title, used on OldNYC website"
+              },
+              "url": {
+                "type": "string",
+                "description": "URL of webpage of photo in OldNYC"
+              },
+              "imageUrl": {
+                "type": "string",
+                "description": "URL of image of photo in OldNYC"
+              },
+              "nyplUrl": {
+                "type": "string",
+                "description": "URL to item in NYPL Digital Collections"
+              }
+            }
+          }
+        },
+        "required": [
+          "id",
+          "type"
+        ],
+        "additionalProperties": false
+      },
+      "stats": {
+        "count": 39516,
+        "types": {
+          "st:Photo": 39516
+        },
+        "geometries": 39516,
+        "decades": {
+          "1030": 2,
+          "1480": 4,
+          "1820": 1,
+          "1830": 3,
+          "1850": 7,
+          "1860": 83,
+          "1870": 82,
+          "1880": 138,
+          "1890": 516,
+          "1900": 1063,
+          "1910": 1600,
+          "1920": 8524,
+          "1930": 13974,
+          "1940": 2724,
+          "1950": 18,
+          "1960": 34,
+          "1970": 49
+        }
+      }
+    },
+    {
+      "name": "oldnyc.csv",
+      "format": "csv",
+      "description": "All objects from ${id}.objects.ndjson, with data object flattened to separate fields according to flattenPaths in Dataset descriptor",
+      "mediatype": "text/csv",
+      "path": "oldnyc.csv"
+    },
+    {
+      "name": "oldnyc.geojson",
+      "format": "geojson",
+      "description": "All objects from oldnyc.objects.ndjson that have a geometry, converted to GeoJSON",
+      "mediatype": "application/json",
+      "path": "oldnyc.geojson"
+    },
+    {
+      "name": "oldnyc.sample.geojson",
+      "format": "geojson",
+      "description": "Random sample of 100 Features from oldnyc.geojson",
+      "mediatype": "application/json",
+      "path": "oldnyc.sample.geojson"
+    },
+    {
+      "name": "oldnyc.flattened.geojson",
+      "format": "geojson",
+      "description": "Same as oldnyc.geojson, but with data object flattened according to flattenPaths in Dataset descriptor; this makes using the file with QGIS easier",
+      "mediatype": "application/json",
+      "path": "oldnyc.flattened.geojson"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC BY-NC"
+    }
+  ],
+  "sources": [
+    {
+      "title": "OldNYC's data file",
+      "path": "https://raw.githubusercontent.com/oldnyc/oldnyc.github.io/master/data.json"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Bert Spaan",
+      "role": "wrangler"
+    },
+    {
+      "title": "Dan Vanderkam",
+      "role": "author"
+    }
+  ]
+}

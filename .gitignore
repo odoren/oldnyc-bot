@@ -2,15 +2,7 @@
 __pycache__
 *.pyc
 .*ipynb.*
-logs
-processing.log
-posting.log
-processed.csv
-content.json
-content-backup.json
-content-original.json
-testing
-images
+*.log
 bin
 include
 lib
@@ -18,3 +10,4 @@ lib64
 local 
 pip-selfcheck.json
 tmp
+images

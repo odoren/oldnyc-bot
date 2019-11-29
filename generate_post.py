@@ -9,9 +9,9 @@ import os
 
 # Logging
 logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s %(name)-12s %(levelname)-8s %(message)s')
-log_filename = 'logs/posting.log'
+log_filename = 'posting.log'
 # Stream handler
 stream_handler = logging.StreamHandler()
 stream_handler.setLevel(logging.INFO)
@@ -19,15 +19,18 @@ stream_handler.setFormatter(formatter)
 logger.addHandler(stream_handler)
 # File handler
 file_handler = logging.FileHandler(log_filename)
-file_handler.setLevel(logging.DEBUG)
+file_handler.setLevel(logging.INFO)
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
-# Define Twitter credentials for posting
+# Environment variables
+aws_bucket = os.environ['AWS_BUCKET']
 consumer_key = os.environ['TWITTER_CONSUMER_KEY']
 consumer_secret = os.environ['TWITTER_CONSUMER_SECRET']
 access_token = os.environ['TWITTER_ACCESS_TOKEN']
 access_token_secret = os.environ['TWITTER_TOKEN_SECRET']
+
+# Twitter auth credentials
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
@@ -35,10 +38,10 @@ api = tweepy.API(auth)
 
 # Generate text content of tweet and format for tweepy API
 def compile_post_text(place):
-	place_name = place['place']
-	neighborhood = place['neighborhood_curr']
+	place_desc = place['place']
+	neighborhood = place['neighborhood']
 	year = place['year']
-	status = "%s: %s (%s)" % (neighborhood, place_name, year)
+	status = "%s: %s (%s)" % (neighborhood, place_desc, year)
 
 	return status
 
@@ -50,7 +53,7 @@ def compile_post_media(place):
 
 	# Download from S3 to local tmp directory
 	s3 = boto3.resource('s3')
-	bucket = s3.Bucket(os.environ['AWS_BUCKET'])
+	bucket = s3.Bucket(aws_bucket)
 	for filename in filenames:
 		key = "oldnyc-bot/images/%s" % filename
 		local_path = "tmp/%s" % filename
@@ -59,7 +62,7 @@ def compile_post_media(place):
 			bucket.download_file(key, local_path)
 			files.append(local_path)
 		except:
-			logger.info('Image not found for place id %s.', place['family_id'])
+			logger.info('Image not found for place id %s.', place['place_id'])
 			return None
 
 	media_ids = [api.media_upload(file).media_id_string for file in files]
@@ -69,23 +72,18 @@ def compile_post_media(place):
 
 # Randomly select a place object and remove it from content.json
 def select_place():
-	with open('content.json') as f:
+	with open('places.json') as f:
 		data = json.load(f)
 
-	# Under construction...
-	# Will automatically regnerate content.json when all place objects have been posted
 	if not data:
-		logger.info('No more places available. Resetting content.json...')
-		# Reset content.json
-		# Wait
-		# Call select_place() again
+		logger.info('No more places available. Reset places.json.')
 	else:
 		choice = random.choice(data)
-		logger.info("Selected id %s for posting.", choice['family_id'])
+		logger.info("Selected id %s for posting.", choice['place_id'])
 		data.remove(choice)
-		logger.info("%d selections remaining in content.json.", len(data))
+		logger.info("%d selections remaining in places.json.", len(data))
 
-		with open('content.json', 'w') as f:
+		with open('places.json', 'w') as f:
 	 		json.dump(data, f, indent=4, sort_keys=True)
 
 		return choice
@@ -93,16 +91,15 @@ def select_place():
 
 def post_tweet():
 	place = select_place()
-
 	status = compile_post_text(place)
 	media_ids = compile_post_media(place)
 
 	if status and media_ids:
 		try:
 			api.update_status(status=status, media_ids=media_ids)
-			logger.info("Tweet successfully posted for place id %s.", place['family_id'])
+			logger.info("Tweet successfully posted for place id %s.", place['place_id'])
 		except:
-			logger.info("Unable to post tweet for place id %s.", place['family_id'])
+			logger.info("Unable to post tweet for place id %s.", place['place_id'])
 
 
 def main():
