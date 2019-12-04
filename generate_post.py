@@ -23,14 +23,17 @@ file_handler.setLevel(logging.INFO)
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
-# Environment variables
-aws_bucket = os.environ['AWS_BUCKET']
-consumer_key = os.environ['TWITTER_CONSUMER_KEY']
-consumer_secret = os.environ['TWITTER_CONSUMER_SECRET']
-access_token = os.environ['TWITTER_ACCESS_TOKEN']
-access_token_secret = os.environ['TWITTER_TOKEN_SECRET']
+# Get credentials from external file
+credentials_path = '';
+with open(credentials_path) as c:
+	credentials = json.load(c)
+	aws_bucket = credentials['aws_bucket']
+	twitter_consumer_key = credentials['twitter_consumer_key']
+	twitter_consumer_secret = credentials['twitter_consumer_secret']
+	twitter_access_token = credentials['twitter_access_token']
+	twitter_access_token_secret = credentials['twitter_access_token_secret']
 
-# Twitter auth credentials
+# Twitter auth
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)

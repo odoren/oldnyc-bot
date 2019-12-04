@@ -1,6 +1,5 @@
 .DS_Store
 __pycache__
-*.pyc
 .*ipynb.*
 *.log
 bin
@@ -10,4 +9,6 @@ lib64
 local 
 pip-selfcheck.json
 tmp
+testing
 images
+config

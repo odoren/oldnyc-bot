@@ -24,13 +24,15 @@ file_handler.setLevel(logging.DEBUG)
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
-# Environment variables
-aws_bucket = os.environ['AWS_BUCKET']
-google_maps_api_key = os.environ['GOOGLE_MAPS_API_KEY']
+# Get credentials from external file
+credentials_path = ''
+with open(credentials_path) as c:
+	credentials = json.load(c)
+	aws_bucket = credentials['aws_bucket']
+	google_maps_api_key = credentials['google_maps_api_key']
 
 
 # Converts source data CSV to Pandas data frame to facilitate maniuplation of values and columns
-# Generates processed.csv for readable output / manual debugging
 def import_source_data_csv(file):
 	df = pd.read_csv(file)
 
@@ -93,6 +95,7 @@ def reverse_geocode(place, neighborhood_dict):
 			place['neighborhood'] = neighborhood
 	except:
 		logger.info('Could not get neighborhood for id %s at coordinates [%s,%s]', place_id, lat, lng)
+		logger.info(json.dumps(payload))
 		return ''
 
 
